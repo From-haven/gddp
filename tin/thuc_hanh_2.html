@@ -59,6 +59,13 @@
         .img:active + img{
             display: block;
         }
+        .hh1{
+            color:black;
+        }
+
+        .P1:hover + .hh1{
+            color:red;
+        }
     </style>
 </head>
 <body>
@@ -67,12 +74,12 @@
         <div class="section">
             <nav>
                 <ul>
-                    <li><a href="#P1">Giới thiệu HTML</a></li>
+                    <li><a class="P1">Giới thiệu HTML</a></li>
                     <li><a href="#P2">Giới thiệu CSS</a></li>
                 </ul>
             </nav>
             <p><strong>HTML là gì</strong></p>
-            <p>HTML (HyperText Markup Language) là ngôn ngữ đánh dấu siêu văn bản, được dùng để thiết kế nội dung trang web.</p>
+            <p class="hh1" id="hh1">HTML - tên viết tắt của Hypertext Markup language , ngôn ngữ đanh dấu siêu văn bản, là ngôn ngữ đặc biệt dùng để thiết kế nội dung các trang web và thể hiện bằng trình duyệt</p>
             <p>Cấu trúc của một tệp HTML là cấu trúc dạng cây của các phần tử HTML.</p>
             <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="HTML Logo" class="logo">
             <p>Link xem chi tiết về HTML tại đây: https://en.wikipedia.org/wiki/HTML </p>
@@ -81,7 +88,7 @@
         <div class="section">
             <h2>Giới thiệu CSS</h2>
             <p><strong>CSS là gì</strong></p>
-            <p>CSS (Cascading Style Sheets) là ngôn ngữ định dạng đặc biệt để mô tả cách hiển thị HTML trên trang web.</p>
+            <p id="#h2">CSS (Cascading Style Sheets) là ngôn ngữ định dạng đặc biệt được dùng để mô tả cách thể hiện của văn bản HTML có trong trang web</p>
             <p>Mỗi định dạng CSS có dạng {thuộc tính: giá trị; }.</p>
             <img src="https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo_and_wordmark.svg" alt="CSS Logo" class="logo">
             <p>Link xem chi tiết về CSS tại đây: https://en.wikipedia.org/wiki/CSS </p>
